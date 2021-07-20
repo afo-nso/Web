@@ -1,0 +1,15 @@
+CREATE DATABASE cadastro
+DEFAULT CHARACTER SET utf8
+DEFAULT COLLATE utf8_general_ci;
+
+CREATE TABLE usuarios
+(
+id int NOT NULL AUTO_INCREMENT,
+nome varchar(45) NOT NULL,
+_login varchar(10) NOT NULL,
+senha varchar(10) NOT NULL,
+_status ENUM("Ativo", "Inativo"),
+PRIMARY KEY(id)
+)
+DEFAULT CHARSET = utf8;
+INSERT INTO `usuarios` (`id`, `nome`, `_login`, `senha`, `_status`) VALUES (NULL, 'usuario', 'usuario', '123456', 'Ativo');
