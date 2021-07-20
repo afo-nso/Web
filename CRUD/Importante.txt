@@ -1,0 +1,4 @@
+Para fazer a conexão é preciso editar o arquivo "conection.php" e colocar os dados referente ao banco de dados.
+por padrao vem um usuario cadastrado
+login:usuario
+senha:123456
