@@ -1,0 +1,184 @@
+
+body {
+    background-color: rgb(39, 39, 46);
+}
+a,
+input {
+    border-color: black;
+    border-width: 1px;
+    font-size: 18px;
+    border-style: groove;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    margin: 2px;
+    width: 150px;
+}
+table {
+    border-spacing: 0 2px;
+    border-collapse: separate;
+}
+td {
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    text-align: center;
+    background-color: #efefef;
+}
+form input[type=password],
+form input[type=text] {
+    height: 25px;
+}
+
+#container {
+    max-width: 300px;
+    width: 70%;
+    background-color: #A3BFCC;
+    position: absolute;
+    padding: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    border: 1px solid black;
+}
+#container input[type=text],
+[type=password] {
+    width: 70%;
+}
+#container input[type=submit] {
+    margin-top: 0;
+    width: 70%;
+    background-color: #efefef;
+}
+#home {
+    max-width: 800px;
+    width: 70%;
+    position: absolute;
+    height: 100%;
+    border: 1px solid black;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #CDEFFF;
+}
+
+#pesquisa-div {
+    margin-bottom: 1px;
+    background-color: #A3BFCC;
+    padding-top: 3%;
+    padding-left: 22%;
+}
+
+#pesquisa {
+    display: inline-block;
+    font-size: 18px;
+}
+#pesquisa input[type=text] {
+    width: 322px;
+    margin-bottom: 0;
+}
+#limpar,
+#novo,
+#pesquisa input[type=submit] {
+    width: 80px;
+    float: left;
+    font-size: 18px;
+    margin-top: -2px;
+    background-color: #efefef;
+    font-family: Arial;
+}
+#status {
+    margin-top: 4px;
+    height: 25px;
+    width: 80px;
+    font-size: 14px;
+}
+#limpar {
+    padding: 1px 8px;
+    margin-right: 2px;
+    width: 64px;
+}
+#novo {
+    width: 55px;
+    padding: 1px 8px;
+
+}
+#pesquisa #status-p {
+    float: left;
+}
+#pesquisa #botoes-p {
+
+    float: left;
+    margin-top: 5px;
+}
+
+#table-home {
+    border: 1px solid black;
+    width: 100%;
+    margin: 1px,1px,1px,1px;
+}
+#excluir {
+    background-color: #F0766E;
+    padding: 0 15px;
+}
+#editar {
+    background-color: #a0d8ee;
+    padding: 0 15px;
+
+}
+
+#form-cad input[id=confirma-senha] {
+    margin-left: 15%;
+    margin-bottom: 0;
+}
+#form-cad select {
+    border: 1px solid black;
+    margin-bottom: 0;
+    margin-top: 5px;
+
+}
+
+#form-cad input[type=submit] {
+    margin-top: 4px;
+    margin-left: 15%;
+    height: 25px;
+    width: 70%;
+    font-family: Arial;
+}
+#div-cad {
+    max-width: 300px;
+    width: 70%;
+    background-color: #A3BFCC;
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    border: 1px solid black;
+}
+#retornar {
+    background-color: #efefef;
+    padding: 2px 6% 2px 5%;
+    margin-left: 15%;
+    margin-top: 0;
+    width: 21.5%;
+    float: left;
+}
+#limpar-cad {
+    background-color: #efefef;
+    padding: 2px 6% 2px 5%;
+    margin-left: 15%;
+    margin-right: -34px;
+    float: left;
+    margin-top: 0;
+    width: 21.5%;
+}
+#login-submit {
+    margin-left: 15%;
+}
+#voltar{
+    background-color: #efefef; 
+    padding: 2px 6% 2px 5%;
+}
